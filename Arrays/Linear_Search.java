@@ -6,7 +6,7 @@ public class Linear_Search {
         int data = 100;
 
         int index_found = linearSearch(arr,data);
-        if(index_found == 0)
+        if(index_found == -1)
         {
             System.out.println("Element is not present in an array");
         }
@@ -27,7 +27,7 @@ public class Linear_Search {
             }
         }
 
-        return 0;
+        return -1;
     }
 
 }
