@@ -3,7 +3,7 @@ package Arrays;
 public class Array_Lower_Bound_BS {
     public static void main(String[] args) {
         int[] arr = {1,1,2,2,3,3,4,5,6,6,8};
-        int data = 1;
+        int data = 2;
         int ans = -1;      //if element is found at lower bound index
 
         int low = 0;
