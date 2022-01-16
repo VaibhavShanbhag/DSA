@@ -1,5 +1,7 @@
 package Bits_Magic;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Power_Of_Two {
@@ -41,5 +43,7 @@ public class Power_Of_Two {
         else {
             System.out.println("No");
         }
+
+
     }
 }
