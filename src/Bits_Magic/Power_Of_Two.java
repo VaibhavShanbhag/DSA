@@ -20,13 +20,13 @@ public class Power_Of_Two {
         /*
         1st Solution where time complexity wil be theta(n)
          */
-        if ((n & (n-1)) == 0){
-            System.out.println("Yes");
-        }
-
-        else {
-            System.out.println("No");
-        }
+//        if ((n & (n-1)) == 0){
+//            System.out.println("Yes");
+//        }
+//
+//        else {
+//            System.out.println("No");
+//        }
 
         /*
         2nd Solution where time complexity wil be theta(count of set bits)

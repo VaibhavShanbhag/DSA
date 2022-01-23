@@ -1,6 +1,7 @@
 package Bits_Magic;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Power_Set {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class Power_Set {
          */
 
         //Time Complexity of this solution is: Theta(2^n*n)
-        String s = "ab";
+        String s = "abc";
         System.out.println(printPowerSubset(s));
 
 
