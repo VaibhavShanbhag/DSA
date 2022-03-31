@@ -4,7 +4,7 @@ public class Sum_Of_K_Elements {
     public static void main(String[] args) {
         int[] arr = {1,8,30,-5,20,7};
         int n = arr.length;
-        int k = 3;
+        int k = 2;
 
         System.out.println(maximumSumOfKElements(arr,n,k));
     }
